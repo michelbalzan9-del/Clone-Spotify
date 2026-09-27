@@ -59,11 +59,21 @@
         <div class="form-field">
           <label for="username">E-mail ou nome de usuário</label>
           <input type="text" id="username" name="username" autocomplete="username" required>
+          <span class="field-error" id="username-error" role="alert"></span>
         </div>
 
         <div class="form-field">
           <label for="password">Senha</label>
-          <input type="password" id="password" name="password" autocomplete="current-password" required>
+          <div class="password-wrapper">
+            <input type="password" id="password" name="password" autocomplete="current-password" required>
+            <button type="button" class="toggle-password" id="toggle-password" aria-label="Mostrar senha" aria-pressed="false">
+              <svg class="icon-eye" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+            </button>
+          </div>
+          <span class="field-error" id="password-error" role="alert"></span>
         </div>
 
         <div class="form-options">
@@ -80,13 +90,18 @@
       <p class="signup-cta">
         Não tem uma conta? <a href="#" class="link-signup">Inscreva-se no Spotify</a>.
       </p>
+
+      <div class="success-message" id="success-message" role="status" hidden>
+        <p>Login simulado com sucesso! Obrigado por testar meu clone do Spotify 🎧</p>
+        <p class="success-subtext">Agora é só relaxar e ouvir uma boa música.</p>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <p class="custom-note">
-      Este projeto é um clone acadêmico da tela de login do Spotify, desenvolvido para a
-      disciplina de Front-End (Atitus) — não possui vínculo com o Spotify.
+      Projeto acadêmico da disciplina de Front-End do curso de Ciência da Computação da ATITUS.
+      Desenvolvido por Michel Balzan da Veiga — RA 1139750.
     </p>
     <nav class="footer-nav" aria-label="Links institucionais">
       <a href="#">Legal</a>
@@ -98,5 +113,6 @@
     </nav>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
