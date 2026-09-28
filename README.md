@@ -23,35 +23,35 @@ Reproduzi a tela de login do Spotify usando HTML e CSS, sem copiar o código-fon
 
 # Checklist Parte 1:
 1.1 Estrutura HTML semântica e acessível
-- [x] header com o logo
-- [x] main com o conteúdo central
-- [x] section pro cartão de login
-- [x] article pra cada botão de login social
-- [x] footer com nota e nav de links
-- [x] formulário com label em cada campo
-- [x] ícones decorativos com aria-hidden, logo com aria-label
+x - header com o logo
+x - main com o conteúdo central
+x - section pro cartão de login
+x - article pra cada botão de login social
+x - footer com nota e nav de links
+x - formulário com label em cada campo
+x - ícones decorativos com aria-hidden, logo com aria-label
 
 1.2 Fidelidade visual
-- [x] fundo preto, cartão centralizado, botão verde
-- [x] mesma organização geral do original (topo, conteúdo, rodapé)
-- [x] prints comparativos (mais abaixo)
+x - fundo preto, cartão centralizado, botão verde
+x - mesma organização geral do original (topo, conteúdo, rodapé)
+x - prints comparativos (mais abaixo)
 
 1.3 CSS: seletores, box model e variáveis
-- [x] seletor de classe
-- [x] seletor descendente
-- [x] pseudo-classe (hover, focus)
-- [x] variáveis CSS em :root
-- [x] box-sizing: border-box
+x - seletor de classe
+x - seletor descendente
+x - pseudo-classe (hover, focus)
+x - variáveis CSS em :root
+x - box-sizing: border-box
 
 1.4 Responsividade
-- [x] CSS mobile first, funciona sem media query
-- [x] grid pra estrutura geral
-- [x] flexbox pros cartões e formulário
-- [x] media query min-width 768px pra telas maiores
-- [x] testado no DevTools e no Live Server
+x - CSS mobile first, funciona sem media query
+x - grid pra estrutura geral
+x - flexbox pros cartões e formulário
+x - media query min-width 768px pra telas maiores
+x - testado no DevTools e no Live Server
 
 1.5 Personalização
-- [x] rodapé com nota pessoal dizendo que é um clone acadêmico
+x - rodapé com nota pessoal dizendo que é um clone acadêmico
 
 # Prints para comparação:
 ## Prints comparação
