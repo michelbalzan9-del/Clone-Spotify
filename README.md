@@ -63,4 +63,9 @@ Site original:
 <img width="1915" height="1079" alt="Spotify original" src="https://github.com/user-attachments/assets/77a49095-d7da-4b63-90f9-1feeaa2d744d" />
 
 
+# Análise da página original (itens da 1.1)
+Tags semânticas: o Spotify tem um topo só com o logo (header), o cartão de login no meio (main e section), cada botão social como uma opção independente (article) e os links institucionais no final (footer com nav). Usei essas mesmas tags na mesma ordem.
 
+Imagens e alt: a página não usa tags img, os ícones são SVG. Os decorativos têm aria-hidden="true" e o logo tem aria-label descrevendo o link.
+
+Formulário acessível: o login tem label ligado a cada campo (for e id), autocomplete nos campos e botão de mostrar/ocultar senha com aria-label.
